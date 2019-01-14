@@ -1,0 +1,19 @@
+{
+  "name": "nikserg/yii2-curl-tor",
+  "description": "Support TOR proxy in Curl",
+  "require": {
+    "linslin/yii2-curl": "*"
+  },
+  "keywords": ["yii2","extension","curl","tor"],
+  "authors": [
+    {
+      "name": "Nikita Zarubin",
+      "email": "nikitadimitrov@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "nikserg\\yii2\\CurlTor\\": ""
+    }
+  }
+}
