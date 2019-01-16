@@ -1,11 +1,11 @@
 # yii2-curl-tor
 Support of TOR proxy in Curl for Yii2.
 
-##Install:
+## Install:
 
 `composer require nikserg/yii2-curl-tor`
 
-##Usage:
+## Usage:
 
 `$curl = new CurlTor('localhost', 9050, 9051, 'OInf80v0cc83lascm9Jf');`
 
@@ -19,7 +19,7 @@ Where
 
 `'OInf80v0cc83lascm9Jf'` - auth token
 
-##About control port and auth token
+## About control port and auth token
 
 This stuff is needed to change TOR identity on fly. How to setup:
 
