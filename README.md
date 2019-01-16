@@ -21,7 +21,7 @@ Where
 
 ## About control port and auth token
 
-This stuff is needed to change TOR identity on fly. How to setup:
+This stuff is needed to change TOR identity (your IP-address) on fly. If you're not going to use such functionality, you can amend this. How to setup:
 
 1. On `/etc/torrc` uncomment:
 
