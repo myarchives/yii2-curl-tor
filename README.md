@@ -19,9 +19,14 @@ Where
 
 `'OInf80v0cc83lascm9Jf'` - auth token
 
+By default, TOR is disabled. `CurlTor` is working as regular `Curl` model. To enable TOR, use 
+`$curlTor->enableTor()`.
+
 ## About control port and auth token
 
-This stuff is needed to change TOR identity (your IP-address) on fly. If you're not going to use such functionality, you can ignore this. How to setup:
+This stuff is needed to change TOR identity (your IP-address) on fly.
+To do this, use `$curlTor->newIdentity()`.
+If you're not going to use such functionality, you can ignore this. How to setup:
 
 1. On `/etc/torrc` uncomment:
 
