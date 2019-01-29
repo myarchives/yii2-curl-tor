@@ -112,6 +112,7 @@
             }
             $fp = fsockopen($this->host, $this->controlPort, $errno, $errstr, 30);
             if (!$fp) {
+                echo "Cannot open sock\n";
                 return false;
             } //can't connect to the control port
 
