@@ -159,6 +159,8 @@
          */
         public function getMyIp()
         {
-            return $this->get('http://ipinfo.io/ip');
+            $content = $this->get('http://checkip.dyndns.com/');
+            preg_match('/Current IP Address: \[?([:.0-9a-fA-F]+)\]?/', $content, $ip);
+            return $ip[1];
         }
     }
